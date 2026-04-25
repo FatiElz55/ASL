@@ -1,3 +1,11 @@
+# Next.js
+.next/
+node_modules/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vercel/
 # ── Dataset & generated data ──────────────────────────────
 data/
 dataset_clean/
@@ -6,8 +14,15 @@ y.npy
 classes.npy
 *.zip
 
+# ── Virtual environments (very large) ─────────────────────
+.venv/
+venv/
+ENV/
+
 # ── Trained model ─────────────────────────────────────────
+model.pkl
 model_svm.pkl
+*.pkl
 
 # ── Generated images ──────────────────────────────────────
 confusion_matrix.png
